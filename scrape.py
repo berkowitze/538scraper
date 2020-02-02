@@ -3,7 +3,7 @@ import requests
 import os
 from bs4 import BeautifulSoup as BS
 
-NOTIFY = True  # send a desktop notification on change (Mac only)
+NOTIFY = False  # send a desktop notification on change (Mac only)
 
 # if either environment variable is not set, email won't be sent
 # as of now, password must be to EMAIL account (didn't want to send updates to
