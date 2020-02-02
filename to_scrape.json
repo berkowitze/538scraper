@@ -1,0 +1,12 @@
+[
+    {
+        "url": "https://projects.fivethirtyeight.com/trump-approval-ratings/promo.html",
+        "selector": "body > div > a > div > svg.svg-long > g > text.disapprove.fg.end-value > tspan.val",
+        "name": "Trump Disapprove %"
+    },
+    {
+        "url": "https://projects.fivethirtyeight.com/trump-approval-ratings/promo.html",
+        "selector": "body > div > a > div > svg.svg-long > g > text.approve.fg.end-value > tspan.val",
+        "name": "Trump Approval %"
+    }
+]
