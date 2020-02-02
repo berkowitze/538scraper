@@ -19,7 +19,7 @@ The sites to be scraped are managed in a JSON file. Stick the script onto a serv
 6. Using the virtual environment executable (in `./venv/bin/python`), run `scrape.py`: `python scrape.py` - it should run.
 
 ## How it works/setup
-1. The script will go through each dictionary in to_scrape.json and download the content from the 'url' value.
+1. The script will go through each dictionary in `to_scrape.json` and download the content from the 'url' value.
 
 2. The script will then go to the selector specified in the 'selector' value, and grab the text from that html element.
 
@@ -27,7 +27,7 @@ The sites to be scraped are managed in a JSON file. Stick the script onto a serv
 
 4. Once all site/selector dictionaries have been processed, you will either be sent a push notification (Mac only) or an email (additional setup required).
 
-5. To get push notifications on a Mac, cahnge NOTIFY to True on line 6 of the script
+5. To get push notifications on a Mac, change NOTIFY to True on line 6 of the script
 
 6. To get emails, go into your .bashrc, .bash_profile, or .profile and add two environment variables (only tested for gmail accounts):
 ```bash
@@ -35,7 +35,7 @@ export fiveEMAIL="youremailhere@gmail.com"
 export fiveEMAILPASSWORD="passwordfortheaboveemail"
 ```
 
-7. Data is saved in data.json for use in the next time `scrape.py` is run.
+7. Data is saved in `data.json` for use in the next time `scrape.py` is run.
 
 8. As of now, `to_scrape.json` has two targets, which are Trump's approval and disapproval rating. During election season, I'll add polling numbers.
 
